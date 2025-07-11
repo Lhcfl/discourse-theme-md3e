@@ -1,6 +1,6 @@
 {
   "name": "TODO",
-  "component": true,
+  "component": false,
   "authors": "Discourse",
   "about_url": "TODO: Put your theme's public repo or Meta topic URL here",
   "license_url": "TODO: Put your theme's LICENSE URL here",

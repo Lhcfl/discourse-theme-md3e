@@ -1,0 +1,24 @@
+
+// sidebar 
+:root {
+    --d-sidebar-row-height: 3.4em;
+    --d-sidebar-background: var(--md3-color-bkg);
+    --d-sidebar-link-color: var(--primary-very-high);
+    --d-sidebar-link-icon-color: var(--primary-very-high);
+    --d-sidebar-section-link-icon-size: 1.4em;
+    --d-sidebar-active-color: var(--tertiary);
+    --d-sidebar-highlight-color: var(--primary);
+}
+.sidebar-wrapper .sidebar-container {
+    border-right: none;
+}
+.sidebar-section-link-wrapper .sidebar-section-link {
+    padding: 1em 1em;
+}
+.sidebar-footer-wrapper .sidebar-footer-container::before {
+    display: none;
+}
+
+#main-outlet-wrapper {
+    gap: 0 !important;
+}

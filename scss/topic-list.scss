@@ -1,0 +1,26 @@
+@use "md.scss" as md;
+
+#create-topic.btn {
+  position: fixed;
+  right: 2em;
+  bottom: 2em;
+  z-index: 100;
+  background-color: var(--tertiary);
+  color: var(--secondary);
+  transition: var(--theme-transition);
+  width: 4em;
+  height: 4em;
+  border-radius: 20%;
+  @include md.md-shadow(4, #999);
+
+  svg.d-icon {
+    color: var(--secondary);
+    margin-right: 0;
+  }
+  .d-button-label {
+    display: none;
+  }
+  &:hover {
+    background-color: var(--tertiary-hover);
+  }
+}

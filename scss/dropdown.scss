@@ -1,0 +1,12 @@
+:root {
+  --d-menu-border-radius: 10px;
+}
+
+.fk-d-menu__inner-content {
+  border-radius: var(--d-menu-border-radius);
+  padding: 0.3em 0;
+}
+
+.dropdown-menu__item .btn {
+  padding: 0.8em 1.2em;
+}

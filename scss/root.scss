@@ -1,0 +1,6 @@
+@use "md.scss";
+
+:root {
+  --theme-transition: all 0.3s ease-out;
+  #{"--shadow-dropdown"}: md.md-shadow-value(1);
+}

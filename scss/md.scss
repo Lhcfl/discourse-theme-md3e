@@ -1,0 +1,22 @@
+@function md-shadow-value($elevation: 2, $shadow-color: #999) {
+  @return 0px
+    calc(
+      2px *
+        (
+          clamp(0, $elevation, 1) + clamp(0, $elevation - 3, 1) + 2 *
+            clamp(0, $elevation - 4, 1)
+        )
+    )
+    calc(
+      2px *
+        (
+          2 * clamp(0, $elevation, 1) + clamp(0, $elevation - 2, 1) +
+            clamp(0, $elevation - 4, 1)
+        )
+    )
+    0px $shadow-color;
+}
+
+@mixin md-shadow($elevation: 2, $shadow-color: #999) {
+  box-shadow: md-shadow-value($elevation, $shadow-color);
+}

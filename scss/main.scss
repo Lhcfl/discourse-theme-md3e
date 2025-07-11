@@ -1,0 +1,21 @@
+// Theme's SCSS
+:root {
+    --d-border-radius: 40px;
+    --md3-color-bkg: color-mix(in srgb, var(--tertiary-50) 40%, var(--secondary));
+}
+
+.d-icon {
+    font-size: 1.4em;
+}
+
+// main
+body {
+    background-color: var(--md3-color-bkg);
+}
+
+#main-outlet {
+    border-radius: var(--d-border-radius);
+    background-color: var(--secondary);
+    padding: 1.5em;
+    margin: 1.5em 0 1.5em 0.5em;
+}

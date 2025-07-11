@@ -1,0 +1,26 @@
+.chat-drawer .chat-drawer-container {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.chat-composer__outer-container {
+  padding-inline: 0;
+}
+.chat-composer__inner-container {
+  border-radius: 0;
+  .chat-composer-dropdown__trigger-btn {
+    margin-left: 0;
+    padding: 0;
+    .d-icon {
+      border-radius: 0;
+      background: transparent;
+      transition: var(--theme-transition);
+      color: var(--primary-medium);
+    }
+    :hover {
+      .d-icon {
+        color: var(--primary);
+      }
+    }
+  }
+}

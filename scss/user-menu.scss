@@ -1,0 +1,5 @@
+@use "md.scss" as md;
+
+.menu-panel.drop-down {
+  border-radius: var(--d-menu-border-radius);
+}
